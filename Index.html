@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+
+  <div class="container">
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">9AM</div>
+      <input type="text" name="input" class="col-md-10" id ="firstForm">
+      <button data-id="9AM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">10AM</div>
+      <input type="text" name="input" class="col-md-10" id = "secondForm">
+      <button data-id="10AM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">11AM</div>
+      <input type="text" name="input" class="col-md-10" id ="thirdForm">
+      <button data-id="11AM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">12PM</div>
+      <input type="text" name="input" class="col-md-10" id = "fourthForm">
+      <button data-id="12PM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold bold">1PM</div>
+      <input type="text" name="input" class="col-md-10" id = "fifthForm">
+      <button data-id="1PM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">2PM</div>
+      <input type="text" name="input" class="col-md-10" id = "sixthForm">
+      <button data-id="2PM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">3PM</div>
+      <input type="text" name="input" class="col-md-10" id = "seventhForm">
+      <button data-id="3PM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">4PM</div>
+      <input type="text" name="input" class="col-md-10" id = "eighthForm">
+      <button data-id="4PM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+    <br />
+    <div class="row timeSlot">
+      <div class="col-md-1 bold">5PM</div>
+      <input type="text" name="input" class="col-md-10" id = "ninthForm">
+      <button data-id="5PM" class="btn btn-dark col-md-1 saveButton">SAVE</button>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./moment.js"></script>
+  <script type="text/javascript" src="./Javascript.js"></script>
+
+</body>
+
+</html>

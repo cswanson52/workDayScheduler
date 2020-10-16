@@ -1,0 +1,19 @@
+body {
+  background-color: #373a40;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 45px 0px 45px 0px;
+}
+
+.container {
+  background-color: #686d76;
+  padding: 20px 35px 20px 20px;
+  border: 3mm ridge;
+  border-color: #222831;
+}
+
+.bold {
+  font-weight: bold;
+}
